@@ -10,7 +10,7 @@ Andrew Hendricks (AndrewHHendricks@gmail.com)
 
 Our company has decided to create its own new movie studio and wants to explore what types of movies are doing best at the box office.
 
-Our company asked our team to study which types of movies are doing the best and to translate our findings into actionable insights for the new movie studio head.
+The company asked our team to study which types of movies are doing the best and to translate our findings into actionable insights for the new movie studio head.
 
 ## Business Understanding
 

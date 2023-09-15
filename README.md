@@ -14,7 +14,7 @@ The company asked our team to study which types of movies are doing the best and
 
 ## Business Understanding
 
-Our key stakeholder is the head of the new movie studio. The main question we explored was: Which factors have the strongest significance in relation to a movie's return on investment?
+Our key stakeholder is the head of the new movie studio. The main question we explored was: Which factors have the strongest significance in relation to a movie's profitability?
 
 ## Data Understanding and Analysis
 
@@ -24,27 +24,29 @@ To perform our analysis, our team primarily relied on budgetary data from two so
 
 ### Description of data
 
-The budgetary data from The Numbers included approximately 5,500 records of movies from the past several decades. To perform our analysis of the relationship between factors from the IMDB database and ROI, we merged the data sets and eliminated Nan values as needed.
+The budgetary data from The Numbers included approximately 5,500 records of movies from the past several decades. To perform our analysis of the relationship between factors from the IMDB database and profitability, we merged the data sets and eliminated Nan values as needed.
 
 ### Methods
 
-To begin, we decided to calculate a ratio of worldwide gross relative to budget to determine the return on investment for each film.  We used this value as our main measure of profitability.
+To begin, we decided to calculate a ratio of worldwide gross relative to production budget to determine the profitability ratio for each film.  We used this value as our main indicator for profitability.
 
-Next, for each factor we analyzed, we performed chi squared tests to evaluate whether we could reject the null hypothesis that there is no significant statistical relationship between that factor and return on investment. To do so, we created categories for return on investment considering the uniformity of no of records per category and industry ratios for movie to become profitable.
+Next, for each factor we analyzed, we performed chi square tests to evaluate significance of statistical relationship between the factor and profitability. In order to conduct the analysis transformed profitability ratios to categorical form considering the uniformity of no of records per category and industry ratios for movie to become profitable.
 
 The hypothesis considered for the analysis
 
-H0:There is no significant relationship between factor and ROI category.
+H0:There is no significant relationship between factor and profitability category.
 
-H1:There is a significant relationship between factor month and ROI category.
+H1:There is a significant relationship between factor month and profitability category.
 
-For factors that we concluded as significant, then conducted a secondary analysis grouping the data by element for that factor and reviewed the median ROI for each element. In certain analyses involving smaller numbers of records, such as analyses of personnel categories, we used the best sample of data we had available.
+The factors that resulted as significant, then conducted a secondary analysis grouping the data by element for that factor and reviewed the median profitability ratio for each element. In certain analyses involving smaller numbers of records, such as analyses of personnel categories, we used the best sample of data we had available.
 
 
 ### Results
+Median Profitability Ratio by Movie Genre
 
 ![Movie Genre](https://github.com/ahendricks2/project2readme/assets/141271148/7695bcea-08b5-43b1-9985-d059dd49f6cb)
 
+Median of Profitability Ratio by Duration of the Movie
 ![Runtime](https://github.com/ahendricks2/project2readme/assets/141271148/efd73f08-84e9-40d6-a0d8-b09c07e64ec8)
 
 ## Conclusion

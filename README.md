@@ -34,7 +34,7 @@ Next, for each factor we analyzed, we performed chi squared tests to evaluate wh
 
 The hypothesis considered for the analysis
 
-H0:There is no significant relationship between factor and ROI category.
+H0:There is no significant relationship between factor and ROI category.\t
 H1:There is a significant relationship between factor month and ROI category.
 
 For factors that we concluded as significant, then conducted a secondary analysis grouping the data by element for that factor and reviewed the median ROI for each element. In certain analyses involving smaller numbers of records, such as analyses of personnel categories, we used the best sample of data we had available.

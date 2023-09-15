@@ -1,8 +1,11 @@
 # Cinephiles Phase 2 Project
 
 September 2023
+
 Yasitha De Alwis (ydealwis@gmail.com)
+
 Kendall McNeil (kendallmccneil@gmail.com)
+
 Andrew Hendricks (AndrewHHendricks@gmail.com)
 
 

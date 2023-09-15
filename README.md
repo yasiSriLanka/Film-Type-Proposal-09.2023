@@ -30,9 +30,14 @@ The budgetary data from The Numbers included approximately 5,500 records of movi
 
 To begin, we decided to calculate a ratio of worldwide gross relative to budget to determine the return on investment for each film.  We used this value as our main measure of profitability.
 
-Next, for each factor we analyzed, we performed chi squared tests to evaluate whether we could reject the hull hypothesis that there was no significant statistical correlation between that factor and return on investment. To do so, we created categories for return on investment based on a normal distribution.
+Next, for each factor we analyzed, we performed chi squared tests to evaluate whether we could reject the null hypothesis that there is no significant statistical relationship between that factor and return on investment. To do so, we created categories for return on investment considering the uniformity of no of records per category and industry ratios for movie to become profitable.
 
-For factors where we could reject the null hypothesis with at least 95% confidence, we then grouped the data by element for that factor and reviewed the median ROI for each element.  When possible, we limited our analysis to data sets with at least 30 records. In certain analyses involving smaller numbers of records, such as analyses of personnel categories, we used the best sample of data we had available.
+The hypothesis considered for the analysis
+
+H0:There is no significant relationship between factor and ROI category.
+H1:There is a significant relationship between factor month and ROI category.
+
+For factors that we concluded as significant, then conducted a secondary analysis grouping the data by element for that factor and reviewed the median ROI for each element. In certain analyses involving smaller numbers of records, such as analyses of personnel categories, we used the best sample of data we had available.
 
 
 ### Results
@@ -47,5 +52,5 @@ Based on our analysis, we would make the following recommendations to the head o
 1. The most profitable genre is horror/mystery/thriller.
 2. The most profitable months to release a film are June and July.
 3. The most profitable directors are Henry Joost, Ariel Shulman, David F. Sandberg, Pierre Coffin, Christopher Landon, James DeMonaco, M. Night Shyamalan, James Wan, Damien Chazelle, and Jake Kasdan.
-4. The most profitable run time is over two hours, specifically from 134-137 minutes.
+4. The most profitable run time is over two hours, derived average run length of 134-137 minutes.
 
